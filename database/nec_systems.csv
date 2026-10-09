@@ -1,0 +1,44 @@
+material_class,system,n_experiment,n_theory,n_indirect,n_disputed,first_year,last_year,methods,regimes,refs,status
+1D carbon,carbon nanotube,0,4,0,0,2004,2012,DFT; device simulation; device simulation (self-consistent); theory (quantum capacitance model),device,doi:10.48550/arxiv.cond-mat/0412540 ; doi:10.1103/physrevb.72.035455 ; doi:10.1109/tnano.2006.886782 ; doi:10.1109/iscas.2012.6271955,theoretical
+2D semiconductor,black phosphorus,1,0,0,0,2015,2015,capacitance,low density (holes),doi:10.48550/arxiv.1510.08262,experimental
+2D semiconductor,phosphorene e-h double monolayer,0,1,0,0,2018,2018,theory (CDW model),electron-hole bilayer,doi:10.1103/physrevb.98.245115,theoretical
+III-V,GaAs double quantum well,3,0,1,0,2019,2023,capacitance and magnetocapacitance; magnetotransport; magnetotransport (QHE),low density; low density; quantum Hall; quantum Hall; quantum Hall bilayer,doi:10.1134/s002136401918005x ; doi:10.1088/1361-6641/ab9324 ; doi:10.1134/s1027451021060070 ; doi:10.1134/s0021364023601367,experimental
+III-V,GaAs/AlGaAs 2DEG,3,0,1,0,1992,2016,compressibility via double-layer detection; magnetotransport + modeling; microwave permittivity; penetration-field capacitance,"low density; low density, B=0; quantum Hall; quantum Hall (bubble/stripe); quantum Hall bilayer",doi:10.1103/physrevlett.68.674 ; doi:10.1063/1.116045 ; doi:10.1103/physrevb.78.205310 ; doi:10.48550/arxiv.1608.05210,experimental
+III-V,III-V quantum well,0,0,1,0,2021,2021,photocapacitance,indirect excitons,doi:10.1016/j.mtelec.2023.100039,indirect
+MXene,Ti3CNTx MXene,1,0,0,0,2021,2021,XPS core-level shift,surface doping,doi:10.1063/5.0039918,experimental
+Si,n-type Si,0,1,0,0,1992,1992,theory (STLS dielectric function),"low density, 77 K",doi:10.1103/physrevb.46.15123,theoretical
+TMD,MoS2,4,0,0,0,2014,2025,ARPES/XPS with surface doping; capacitance; device (NQC FET); magnetotransport (Landau level sensing),device; low density; surface doping,doi:10.1021/nl500212s ; doi:10.48550/arxiv.2002.01114 ; doi:10.1007/s11432-023-3763-3 ; doi:10.1088/2053-1583/ada622,experimental
+TMD,WSe2/WS2 moire,2,0,0,0,2023,2024,chemical potential sensing; chemical potential sensing (optical),moire flat band,doi:10.48550/arxiv.2308.08134 ; doi:10.1038/s41566-024-01377-3,experimental
+TMD,WTe2,2,0,0,0,2025,2026,device (NQC FET); device (NQC photonic synapse),device,doi:10.1021/acsnano.5c00221 ; doi:10.1021/acsnano.5c19004,experimental
+TMD,bilayer WSe2,2,0,0,0,2016,2024,magnetotransport (Landau level); magnetotransport (SdH),low density (holes),doi:10.1103/physrevlett.116.086601 ; doi:10.1088/2053-1583/ad6b80,experimental
+TMD,WSe2,1,0,0,0,2015,2015,ARPES with K surface doping,surface doping,doi:10.1038/nnano.2015.217,experimental
+TMD,bilayer MoS2,1,0,0,0,2019,2019,magnetotransport (Landau fan),low density,doi:10.1103/physrevlett.123.117702,experimental
+TMD,monolayer WSe2,1,0,0,0,2024,2024,scanning SET,quantum Hall (holes),doi:10.1103/physrevx.14.031018,experimental
+TMD,twisted MoTe2,1,0,0,0,2023,2023,chemical potential sensing (optical),moire flat band (FCI),doi:10.1038/s41586-023-06452-3,experimental
+TMD,ionic-liquid-gated 2D superconductors,0,1,0,0,2018,2018,theory (phase separation model),ionic-liquid gating,doi:10.1103/physrevb.98.214507,theoretical
+TMD,monolayer MoS2,0,0,1,1,2015,2025,capacitance and transport; unknown (abstract unavailable),low density; unknown,doi:10.1038/ncomms7088 ; doi:10.1016/j.physb.2025.418022,indirect
+excitonic insulator,Ta2NiSe5,1,0,0,0,2023,2023,ARPES with K surface doping,surface doping,doi:10.1103/physrevresearch.5.043089,experimental
+graphene,monolayer graphene,10,1,0,0,2011,2024,capacitance (chemical potential); capacitance-voltage; charge sensing; chemical potential measurement; device (NQC FET); device (NQC phototransistor); quantum capacitance; scanning SET compressibility; theory (finite-temperature Hartree-Fock),"device; impurity-induced; impurity-induced, near CNP; low density; quantum Hall; quantum Hall (FQH); quantum Hall (bubble phases)",doi:10.1103/physrevb.84.235407 ; doi:10.1103/physrevlett.111.076802 ; doi:10.1073/pnas.1300599110 ; doi:10.1038/srep02041 ; doi:10.1063/1.4807394 ; doi:10.1002/aelm.201500297 ; doi:10.1038/s41567-021-01421-x ; doi:10.48550/arxiv.2309.04319 ; doi:10.1109/ted.2023.3294365 ; doi:10.1002/adom.202401465 ; doi:10.48550/arxiv.2410.10961,experimental
+graphene,bilayer graphene,3,1,0,0,2011,2025,capacitance; capacitance (chemical potential); theory (capacitance modeling); tunnelling spectroscopy (STM),low density; quantum Hall; quantum Hall (FQH),doi:10.1103/physrevb.84.085441 ; doi:10.1126/science.1251003 ; doi:10.1103/physrevlett.132.046603 ; doi:10.1038/s41567-025-02830-y,experimental
+graphene,double-layer graphene,3,1,0,0,2014,2026,capacitance; microwave impedance microscopy; theory (Hartree-Fock CDW),quantum Hall; quantum Hall (lowest Landau level); quantum Hall (zero Landau level),doi:10.1103/physrevb.90.035404 ; doi:10.48550/arxiv.2608.28381 ; doi:10.48550/arxiv.2608.28338 ; doi:10.1021/acs.nanolett.5c06452,experimental
+graphene,twisted bilayer graphene,2,2,0,0,2021,2025,Coulomb blockade spectroscopy; DMFT; STS; theory (heavy-fermion model),moire flat band; moire flat band (Hofstadter),doi:10.1103/physrevlett.127.266402 ; doi:10.1103/physrevx.14.031045 ; doi:10.1103/physrevb.109.155430 ; doi:10.1038/s41586-024-08550-2,experimental
+graphene,rhombohedral trilayer graphene,1,1,0,0,2021,2024,capacitance; theory (mean-field),"flat band (van Hove), displacement field; flat band, displacement field",doi:10.1038/s41586-021-03938-w ; doi:10.1103/physrevb.109.l060409,experimental
+graphene,graphene/h-BN moire superlattice,1,0,0,0,2025,2025,capacitance,moire flat band,doi:10.1103/75gl-jzl6,experimental
+graphene,graphene/h-BN nanocapacitor,1,0,1,1,2014,2019,DFT; capacitance (nanocapacitor); electrostatic modeling,device,doi:10.1021/nl4037824 ; doi:10.13005/ojc/320120 ; doi:10.1039/c9ra00614a,contested
+graphene,rhombohedral multilayer graphene,0,2,0,0,2023,2026,theory (Hartree-Fock + correlation); theory (Hartree-Fock),"flat band, displacement field",doi:10.1103/physrevb.108.l041101 ; doi:10.1103/xq6w-96vg,theoretical
+graphene,graphene nanoribbon with lateral gates,0,1,0,0,2014,2014,device simulation (self-consistent),device,doi:10.1103/physrevb.89.115406,theoretical
+graphene,graphene nanoribbon,0,0,0,1,2014,2014,capacitance,device,doi:10.1063/1.4904715,disputed
+graphene,graphite/h-BN aligned interface,0,0,1,0,2022,2022,capacitance and transport,quantum Hall (surface states),doi:10.48550/arxiv.2211.16420,indirect
+metal,capacitors with free-electron-like metal electrodes,0,1,0,0,2019,2019,DFT,metal electrodes,doi:10.1103/physrevb.99.235127,theoretical
+metal fluid,fluid Rb,1,0,0,0,2007,2007,x-ray diffraction and SAXS,expanded fluid metal,doi:10.1103/physrevlett.98.096401,experimental
+metal fluid,fluid alkali metals,0,1,0,0,2010,2010,thermodynamic modeling,expanded fluid metal,doi:10.1021/je100627c,theoretical
+nanowire,topological superconductor nanowire,0,1,0,0,2016,2016,theory (BdG numerics),topological phase transition,doi:10.1103/physrevb.93.064512,theoretical
+other,NbOCl2 surface,0,0,1,0,2026,2026,ARPES,surface doping,doi:10.1038/s43246-025-01070-0,indirect
+other,vdW magnet,0,0,0,1,2025,2025,ARPES and core-level,surface doping,doi:10.1038/s41467-025-56457-x,disputed
+oxide,SrTiO3 surface,2,0,0,0,2016,2026,ARPES with UV-light doping; gate-dependent Hall density,surface 2DES; surface doping,doi:10.1038/srep25789 ; doi:10.48550/arxiv.2604.21783,experimental
+oxide,"BiFeO3, Cu-doped",1,0,0,0,2024,2024,electrochemical charge-discharge,battery electrode coating,doi:10.1063/5.0210841,experimental
+oxide,"BiFeO3, La-doped",1,0,0,0,2020,2020,UPS with UV-light doping + capacitance,surface doping,doi:10.1038/s41598-020-61859-6,experimental
+oxide (5d),"Sr3Ir2O7, La-doped",1,0,0,0,2015,2015,ARPES with La doping,correlated bulk (Mott),doi:10.1038/nmat4273,experimental
+oxide (nickelate),La3Ni2O7 under pressure,0,1,0,0,2024,2024,many-body theory,"correlated bulk (nickelate, high pressure)",doi:10.1103/physrevb.109.165154,theoretical
+oxide interface,LaAlO3/SrTiO3 interface,2,4,1,1,2011,2022,capacitance; capacitance + Kelvin probe; capacitance + penetration field; dual-gate magnetotransport; theory (Rashba interface model); theory (multiband Hartree-Fock); theory (self-consistent confinement),"interface 2DEG; low density; low density, near depletion",doi:10.1126/science.1204168 ; doi:10.1103/physrevlett.109.196401 ; doi:10.1103/physrevb.86.075116 ; doi:10.1103/physrevb.89.195448 ; doi:10.1021/acs.nanolett.6b02348 ; doi:10.1103/physrevlett.116.026804 ; doi:10.1103/physrevb.103.125141 ; doi:10.1103/physrevb.106.054205,experimental
+topological insulator,Bi2Te3-type TI,2,1,0,0,2016,2018,capacitance-voltage; device simulation,device,doi:10.1063/1.4968183 ; openalex:W2651342795 ; doi:10.1016/j.apsusc.2018.09.051,experimental

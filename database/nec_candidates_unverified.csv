@@ -1,0 +1,24 @@
+work_id,material,material_class,note,year,doi,arxiv_id,openalex_id,title,journal
+W0002,quantum Hall regime (negative permittivity),model,,1993,10.1016/0921-4526(93)90374-f,,W1965069102,On negative dielectric permittivity in the quantum Hall regime,Physica B Condensed Matter
+W0009,quantum dots,quantum dot,,1998,10.1016/s1386-9477(98)00213-6,,W1966740958,Paired additions of electrons into quantum dots: How and why does localization destroy Coulomb blockade to producepairing?,Physica E Low-dimensional Systems and Nanostructures
+W0019,GaAs asymmetric double quantum well,III-V,,2002,10.1016/s1386-9477(01)00351-4,,W2162063880,Exchange-driven bilayer-to-monolayer charge transfer in an asymmetric double-quantum-well,Physica E Low-dimensional Systems and Nanostructures
+W0020,GaAs 2DES (composite-fermion metal),III-V,,2002,10.1016/s1386-9477(01)00252-1,,W2056488172,Measurements of the compressibility of the composite fermion metallic state in a 2D electron system,Physica E Low-dimensional Systems and Nanostructures
+W0034,carbon nanotube,1D carbon,Ilani 2006,2006,10.1038/nphys412,,W2112162786,Measurement of the quantum capacitance of interacting electrons in carbon nanotubes,Nature Physics
+W0036,carbon nanotube transistor,1D carbon,,2006,10.1007/s10825-006-8826-1,,W2084325063,One-dimensional screening effects in bulk-modulated carbon nanotube transistors,Journal of Computational Electronics
+W0040,AlGaAs/GaAs double QW + InAs QDs,III-V,,2007,10.1088/0953-8984/19/50/506207,,W2028571656,Transport hysteresis in AlGaAs/GaAs double quantum well systems with InAs quantum dots,Journal of Physics Condensed Matter
+W0046,low-density fluid alkali metals,metal fluid,,2008,10.4131/jshpreview.18.313,,W2047470201,Structural Study of Low-Density Fluid Alkali Metals,The Review of High Pressure Science and Technology
+W0057,lithium-ammonia solution,metal fluid,,2011,10.1103/physrevb.84.094206,,W2045932333,Collective modes in a saturated lithium-ammonia solution as a probe of the response of the low-density homogeneous electron gas,Physical Review B
+W0063,coaxial nanowire capacitor,nanowire,,2012,10.1038/ncomms1833,,W2171000362,Anomalous high capacitance in a coaxial single nanowire capacitor,Nature Communications
+W0070,strongly disordered graphene,graphene,,2013,10.1038/srep01772,,W2021969891,Density of States and Its Local Fluctuations Determined by Capacitance of Strongly Disordered Graphene,Scientific Reports
+W0084,p-GaAs quantum well,III-V,thesis,2014,,,W2601491548,Exploring 2D Metal-Insulator Transition in p-GaAs Quantum Well with High rs,OhioLink ETD Center (Ohio Library and Information Network)
+W0092,quantum Hall bilayer excitons,graphene,,2015,10.48550/arxiv.1511.03287,,W2491010474,Chemical potential and compressibility of quantum Hall bilayer excitons,DSpace@MIT (Massachusetts Institute of Technology)
+W0103,polycrystalline VO2 film,oxide,,2015,10.1063/1.4930312,,W1802466690,Polycrystalline VO2 film characterization by quantum capacitance measurement,Applied Physics Letters
+W0144,TI surface state,topological insulator,,2017,10.1016/j.apsusc.2017.02.090,,W2587810908,Measurement of the quantum capacitance from two-dimensional surface state of a topological insulator at room temperature,Applied Surface Science
+W0153,bilayer graphene double layer,graphene,,2017,10.1088/2053-1583/aa7bcf,,W2738677825,Transport spectroscopy in bilayer graphene using double layer heterostructures,2D Materials
+W0164,hydrogenated graphene,graphene,,2018,10.1038/s41467-018-03026-0,,W2800651162,Quantum and electrochemical interplays in hydrogenated graphene,Nature Communications
+W0251,2D quantum coupling stacks (steep-slope FET),TMD,,2022,10.1088/1361-6528/ac9e5e,,W4307757816,Steep-slope transistors enabled with 2D quantum coupling stacks,Nanotechnology
+W0272,graphite/h-BN moire surface,graphene,Nature version of W0242,2023,10.1038/s41586-023-06264-5,,W4384819444,Mixing of moiré-surface and bulk states in graphite,Nature
+W0276,bilayer electron systems,III-V,,2023,10.1103/physrevb.107.l041302,,W4317035545,Nonequilibrium phenomena in bilayer electron systems,Physical review. B./Physical review. B
+W0282,electron-hole fluids in vdW heterostructures,TMD,,2023,10.1038/s41467-023-43799-7,,W4389682712,Thermodynamic behavior of correlated electron-hole fluids in van der Waals heterostructures,Nature Communications
+W0293,twisted bilayer graphene (magic-angle),graphene,,2024,10.1039/d4nr02824d,,W4405699153,Electronic confinement induced quantum dot behavior in magic-angle twisted bilayer graphene,Nanoscale
+W0337,metals and doped semiconductors,model,theory,2025,10.1103/physrevb.111.094307,,W4408538063,Static Born charges and quantum capacitance in metals and doped semiconductors,Physical review. B./Physical review. B

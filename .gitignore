@@ -1,0 +1,4 @@
+# Raw harvest output and cached article text (copyrighted; regenerate with scripts/)
+data/
+__pycache__/
+*.pyc

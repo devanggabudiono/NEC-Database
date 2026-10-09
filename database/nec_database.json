@@ -1,0 +1,1960 @@
+{
+ "name": "NEC-Database",
+ "description": "Materials reported to show negative electronic compressibility (NEC), curated from the literature",
+ "built": "2026-10-09",
+ "screened_works": 373,
+ "verdict_counts": {
+  "N": 74,
+  "NT": 69,
+  "X": 61,
+  "E": 54,
+  "M": 35,
+  "T": 25,
+  "U": 23,
+  "DUP": 11,
+  "R": 8,
+  "P": 8,
+  "D": 5
+ },
+ "systems": [
+  {
+   "system": "carbon nanotube",
+   "material_class": "1D carbon",
+   "status": "theoretical",
+   "counts": {
+    "experiment": 0,
+    "theory": 4,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0001",
+     "material": "carbon nanotube (FET)",
+     "evidence": "theory",
+     "method": "device simulation (self-consistent)",
+     "regime": "device",
+     "year": 2004,
+     "doi": "10.48550/arxiv.cond-mat/0412540",
+     "arxiv_id": "cond-mat/0412540",
+     "openalex_id": "W1517127111",
+     "title": "Negative Quantum Capacitance of Carbon Nanotube Field-Effect Transistors",
+     "journal": "arXiv (Cornell University)",
+     "note": null,
+     "work_id": "W0027"
+    },
+    {
+     "entry_id": "NEC-0002",
+     "material": "carbon nanotube (gated)",
+     "evidence": "theory",
+     "method": "theory (quantum capacitance model)",
+     "regime": "device",
+     "year": 2005,
+     "doi": "10.1103/physrevb.72.035455",
+     "arxiv_id": null,
+     "openalex_id": "W2073628152",
+     "title": "Negative quantum capacitance of gated carbon nanotubes",
+     "journal": "Physical Review B",
+     "note": null,
+     "work_id": "W0031"
+    },
+    {
+     "entry_id": "NEC-0003",
+     "material": "carbon nanotube (FET, DFT)",
+     "evidence": "theory",
+     "method": "DFT",
+     "regime": "device",
+     "year": 2007,
+     "doi": "10.1109/tnano.2006.886782",
+     "arxiv_id": null,
+     "openalex_id": "W2158929345",
+     "title": "DFT Modeling of Bulk-Modulated Carbon Nanotube Field-Effect Transistors",
+     "journal": "IEEE Transactions on Nanotechnology",
+     "note": null,
+     "work_id": "W0038"
+    },
+    {
+     "entry_id": "NEC-0004",
+     "material": "carbon nanotube (FET)",
+     "evidence": "theory",
+     "method": "device simulation",
+     "regime": "device",
+     "year": 2012,
+     "doi": "10.1109/iscas.2012.6271955",
+     "arxiv_id": null,
+     "openalex_id": null,
+     "title": "Exploiting negative quantum capacitance of carbon nanotube FETs for low power applications",
+     "journal": "ISCAS 2012",
+     "note": "device simulation; added from carbon search",
+     "work_id": "A0001"
+    }
+   ]
+  },
+  {
+   "system": "black phosphorus",
+   "material_class": "2D semiconductor",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0005",
+     "material": "black phosphorus (holes)",
+     "evidence": "experiment",
+     "method": "capacitance",
+     "regime": "low density (holes)",
+     "year": 2015,
+     "doi": "10.48550/arxiv.1510.08262",
+     "arxiv_id": null,
+     "openalex_id": "W2587427998",
+     "title": "Negative Compressibility in Graphene-terminated Black Phosphorus Heterostructures",
+     "journal": "DSpace@MIT (Massachusetts Institute of Technology)",
+     "note": "graphene-terminated, hBN-encapsulated",
+     "work_id": "W0099"
+    }
+   ]
+  },
+  {
+   "system": "phosphorene e-h double monolayer",
+   "material_class": "2D semiconductor",
+   "status": "theoretical",
+   "counts": {
+    "experiment": 0,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0006",
+     "material": "phosphorene e-h double monolayer",
+     "evidence": "theory",
+     "method": "theory (CDW model)",
+     "regime": "electron-hole bilayer",
+     "year": 2018,
+     "doi": "10.1103/physrevb.98.245115",
+     "arxiv_id": "1811.12268",
+     "openalex_id": "W2903095434",
+     "title": "Anisotropic charge density wave in electron-hole double monolayers: Applied to phosphorene",
+     "journal": "Physical review. B./Physical review. B",
+     "note": "NEC assumed",
+     "work_id": "W0155"
+    }
+   ]
+  },
+  {
+   "system": "GaAs double quantum well",
+   "material_class": "III-V",
+   "status": "experimental",
+   "counts": {
+    "experiment": 3,
+    "theory": 0,
+    "indirect": 1,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0007",
+     "material": "GaAs double quantum well (FET)",
+     "evidence": "experiment",
+     "method": "capacitance and magnetocapacitance",
+     "regime": "low density; quantum Hall",
+     "year": 2019,
+     "doi": "10.1134/s002136401918005x",
+     "arxiv_id": null,
+     "openalex_id": "W2990075118",
+     "title": "Quantum Effects in the Capacitance of Field-Effect Transistors with a Double Quantum Well",
+     "journal": "Journal of Experimental and Theoretical Physics Letters",
+     "note": null,
+     "work_id": "W0179"
+    },
+    {
+     "entry_id": "NEC-0008",
+     "material": "GaAs double quantum well",
+     "evidence": "experiment",
+     "method": "magnetotransport (QHE)",
+     "regime": "low density",
+     "year": 2020,
+     "doi": "10.1088/1361-6641/ab9324",
+     "arxiv_id": "2002.05402",
+     "openalex_id": "W3024426364",
+     "title": "A novel planar back-gate design to control the carrier concentrations in GaAs-based double quantum wells",
+     "journal": "Semiconductor Science and Technology",
+     "note": null,
+     "work_id": "W0184"
+    },
+    {
+     "entry_id": "NEC-0009",
+     "material": "GaAs double quantum well (wide/double, dual-gate FET)",
+     "evidence": "experiment",
+     "method": "capacitance and magnetocapacitance",
+     "regime": "quantum Hall bilayer",
+     "year": 2021,
+     "doi": "10.1134/s1027451021060070",
+     "arxiv_id": null,
+     "openalex_id": "W4200395224",
+     "title": "Quantum Capacitance of a Dual-Gate Field-Effect Transistor",
+     "journal": "Journal of Surface Investigation X-ray Synchrotron and Neutron Techniques",
+     "note": null,
+     "work_id": "W0226"
+    },
+    {
+     "entry_id": "NEC-0010",
+     "material": "GaAs double quantum well (wide well, QH)",
+     "evidence": "indirect",
+     "method": "magnetotransport",
+     "regime": "quantum Hall",
+     "year": 2023,
+     "doi": "10.1134/s0021364023601367",
+     "arxiv_id": null,
+     "openalex_id": "W4385449445",
+     "title": "Giant Spatial Redistribution of Electrons in a Wide Quantum Well Induced by Quantizing Magnetic Field",
+     "journal": "Journal of Experimental and Theoretical Physics Letters",
+     "note": "NEC proposed as cause",
+     "work_id": "W0266"
+    }
+   ]
+  },
+  {
+   "system": "GaAs/AlGaAs 2DEG",
+   "material_class": "III-V",
+   "status": "experimental",
+   "counts": {
+    "experiment": 3,
+    "theory": 0,
+    "indirect": 1,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0011",
+     "material": "GaAs/AlGaAs 2DEG (double-layer)",
+     "evidence": "experiment",
+     "method": "penetration-field capacitance",
+     "regime": "low density, B=0; quantum Hall",
+     "year": 1992,
+     "doi": "10.1103/physrevlett.68.674",
+     "arxiv_id": null,
+     "openalex_id": "W2054951637",
+     "title": "Negative compressibility of interacting two-dimensional electron and quasiparticle gases",
+     "journal": "Physical Review Letters",
+     "note": "Eisenstein 1992; penetration field; abstract does not name GaAs",
+     "work_id": "W0000"
+    },
+    {
+     "entry_id": "NEC-0012",
+     "material": "GaAs/AlGaAs 2DEG (double-layer 2DEG and 2DHG)",
+     "evidence": "experiment",
+     "method": "compressibility via double-layer detection",
+     "regime": "low density",
+     "year": 1996,
+     "doi": "10.1063/1.116045",
+     "arxiv_id": null,
+     "openalex_id": "W2019173834",
+     "title": "Compressibility studies of double electron and double hole gas systems",
+     "journal": "Applied Physics Letters",
+     "note": "NEC stronger for holes",
+     "work_id": "W0006"
+    },
+    {
+     "entry_id": "NEC-0013",
+     "material": "GaAs/AlGaAs 2DEG (bilayer, nu_T=1)",
+     "evidence": "experiment",
+     "method": "magnetotransport + modeling",
+     "regime": "quantum Hall bilayer",
+     "year": 2008,
+     "doi": "10.1103/physrevb.78.205310",
+     "arxiv_id": "0808.1257",
+     "openalex_id": "W1547623014",
+     "title": "Charge imbalance and bilayer two-dimensional electron systems at νT=1",
+     "journal": "Physical Review B",
+     "note": "NEC explains interlayer charge transfer",
+     "work_id": "W0042"
+    },
+    {
+     "entry_id": "NEC-0014",
+     "material": "GaAs/AlGaAs 2DEG (bubble/stripe phases)",
+     "evidence": "indirect",
+     "method": "microwave permittivity",
+     "regime": "quantum Hall (bubble/stripe)",
+     "year": 2016,
+     "doi": "10.48550/arxiv.1608.05210",
+     "arxiv_id": "1608.05210",
+     "openalex_id": "W2517965796",
+     "title": "Negative permittivity attests to local attractive interactions in bubble and stripe phases",
+     "journal": "arXiv (Cornell University)",
+     "note": "NEC inferred from negative permittivity",
+     "work_id": "W0127"
+    }
+   ]
+  },
+  {
+   "system": "III-V quantum well",
+   "material_class": "III-V",
+   "status": "indirect",
+   "counts": {
+    "experiment": 0,
+    "theory": 0,
+    "indirect": 1,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0015",
+     "material": "III-V quantum well (indirect excitons)",
+     "evidence": "indirect",
+     "method": "photocapacitance",
+     "regime": "indirect excitons",
+     "year": 2021,
+     "doi": "10.1016/j.mtelec.2023.100039",
+     "arxiv_id": "2107.13518",
+     "openalex_id": "W3183371207",
+     "title": "Tailoring Quantum Oscillations of Excitonic Schrodinger Cats as Qubits",
+     "journal": "arXiv (Cornell University)",
+     "note": "NQC from photocapacitance",
+     "work_id": "W0230"
+    }
+   ]
+  },
+  {
+   "system": "Ti3CNTx MXene",
+   "material_class": "MXene",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0016",
+     "material": "Ti3CNTx MXene",
+     "evidence": "experiment",
+     "method": "XPS core-level shift",
+     "regime": "surface doping",
+     "year": 2021,
+     "doi": "10.1063/5.0039918",
+     "arxiv_id": null,
+     "openalex_id": "W3147834835",
+     "title": "Spectroscopic signature of negative electronic compressibility from the Ti core-level of titanium carbonitride MXene",
+     "journal": "Applied Physics Reviews",
+     "note": "core-level shift",
+     "work_id": "W0229"
+    }
+   ]
+  },
+  {
+   "system": "n-type Si",
+   "material_class": "Si",
+   "status": "theoretical",
+   "counts": {
+    "experiment": 0,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0017",
+     "material": "n-type Si (doped bulk)",
+     "evidence": "theory",
+     "method": "theory (STLS dielectric function)",
+     "regime": "low density, 77 K",
+     "year": 1992,
+     "doi": "10.1103/physrevb.46.15123",
+     "arxiv_id": null,
+     "openalex_id": "W2041567139",
+     "title": "Theory of screening and electron mobility: Application ton-type silicon",
+     "journal": "Physical review. B, Condensed matter",
+     "note": "STLS theory, 77 K",
+     "work_id": "W0001"
+    }
+   ]
+  },
+  {
+   "system": "MoS2",
+   "material_class": "TMD",
+   "status": "experimental",
+   "counts": {
+    "experiment": 4,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0018",
+     "material": "MoS2 (graphene-MoS2 heterostructure)",
+     "evidence": "experiment",
+     "method": "magnetotransport (Landau level sensing)",
+     "regime": "low density",
+     "year": 2014,
+     "doi": "10.1021/nl500212s",
+     "arxiv_id": "1402.1981",
+     "openalex_id": "W2041113876",
+     "title": "Band Offset and Negative Compressibility in Graphene-MoS2 Heterostructures",
+     "journal": "Nano Letters",
+     "note": null,
+     "work_id": "W0078"
+    },
+    {
+     "entry_id": "NEC-0019",
+     "material": "MoS2 (mono/bilayer)",
+     "evidence": "experiment",
+     "method": "capacitance",
+     "regime": "low density",
+     "year": 2020,
+     "doi": "10.48550/arxiv.2002.01114",
+     "arxiv_id": "2002.01114",
+     "openalex_id": "W3004550505",
+     "title": "Negative compressibility in MoS2 capacitance",
+     "journal": "arXiv (Cornell University)",
+     "note": "capacitance enhancement",
+     "work_id": "W0199"
+    },
+    {
+     "entry_id": "NEC-0020",
+     "material": "MoS2 (gate stack NQCFET)",
+     "evidence": "experiment",
+     "method": "device (NQC FET)",
+     "regime": "device",
+     "year": 2023,
+     "doi": "10.1007/s11432-023-3763-3",
+     "arxiv_id": null,
+     "openalex_id": "W4377245707",
+     "title": "A novel negative quantum capacitance field-effect transistor with molybdenum disulfide integrated gate stack and steep subthreshold swing for ultra-low power applications",
+     "journal": "Science China Information Sciences",
+     "note": null,
+     "work_id": "W0253"
+    },
+    {
+     "entry_id": "NEC-0021",
+     "material": "MoS2 (bulk surface)",
+     "evidence": "experiment",
+     "method": "ARPES/XPS with surface doping",
+     "regime": "surface doping",
+     "year": 2025,
+     "doi": "10.1088/2053-1583/ada622",
+     "arxiv_id": "2409.11886",
+     "openalex_id": "W4406124031",
+     "title": "Reversal of charge transfer doping on the negative electronic compressibility surface of MoS2",
+     "journal": "2D Materials",
+     "note": null,
+     "work_id": "W0334"
+    }
+   ]
+  },
+  {
+   "system": "WSe2",
+   "material_class": "TMD",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0022",
+     "material": "WSe2 (K-dosed surface)",
+     "evidence": "experiment",
+     "method": "ARPES with K surface doping",
+     "regime": "surface doping",
+     "year": 2015,
+     "doi": "10.1038/nnano.2015.217",
+     "arxiv_id": null,
+     "openalex_id": "W7145839998",
+     "title": "Negative Electronic Compressibility and Tunable Spin Splitting in WSe2",
+     "journal": "Nature Nanotechnology",
+     "note": "ARPES",
+     "work_id": "W0100"
+    }
+   ]
+  },
+  {
+   "system": "WSe2/WS2 moire",
+   "material_class": "TMD",
+   "status": "experimental",
+   "counts": {
+    "experiment": 2,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0023",
+     "material": "WSe2/WS2 moire",
+     "evidence": "experiment",
+     "method": "chemical potential sensing",
+     "regime": "moire flat band",
+     "year": 2023,
+     "doi": "10.48550/arxiv.2308.08134",
+     "arxiv_id": "2308.08134",
+     "openalex_id": "W4385965625",
+     "title": "Measurements of Correlated Insulator Gaps in a Transition Metal Dichalcogenide Moiré Superlattice",
+     "journal": "arXiv (Cornell University)",
+     "note": null,
+     "work_id": "W0270"
+    },
+    {
+     "entry_id": "NEC-0024",
+     "material": "WSe2/WS2 moire (optical sensing)",
+     "evidence": "experiment",
+     "method": "chemical potential sensing (optical)",
+     "regime": "moire flat band",
+     "year": 2024,
+     "doi": "10.1038/s41566-024-01377-3",
+     "arxiv_id": "2304.09514",
+     "openalex_id": "W4391262375",
+     "title": "Optical readout of the chemical potential of two-dimensional electrons",
+     "journal": "Nature Photonics",
+     "note": null,
+     "work_id": "W0309"
+    }
+   ]
+  },
+  {
+   "system": "WTe2",
+   "material_class": "TMD",
+   "status": "experimental",
+   "counts": {
+    "experiment": 2,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0025",
+     "material": "WTe2 (Weyl floating gate)",
+     "evidence": "experiment",
+     "method": "device (NQC FET)",
+     "regime": "device",
+     "year": 2025,
+     "doi": "10.1021/acsnano.5c00221",
+     "arxiv_id": null,
+     "openalex_id": "W4409961727",
+     "title": "Two-Dimensional Weyl Material-Based Negative Quantum Capacitance Effect for a Steep-Slope Hysteresis-Free Switching Device",
+     "journal": "ACS Nano",
+     "note": "NQC",
+     "work_id": "W0341"
+    },
+    {
+     "entry_id": "NEC-0026",
+     "material": "WTe2 (Weyl floating gate)",
+     "evidence": "experiment",
+     "method": "device (NQC photonic synapse)",
+     "regime": "device",
+     "year": 2026,
+     "doi": "10.1021/acsnano.5c19004",
+     "arxiv_id": null,
+     "openalex_id": "W7131348475",
+     "title": "Negative Quantum Capacitance-Driven Photonic Synapse with Ultralow Energy Consumption and Year-Scale Retention",
+     "journal": "ACS Nano",
+     "note": "NQC",
+     "work_id": "W0358"
+    }
+   ]
+  },
+  {
+   "system": "bilayer MoS2",
+   "material_class": "TMD",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0027",
+     "material": "bilayer MoS2",
+     "evidence": "experiment",
+     "method": "magnetotransport (Landau fan)",
+     "regime": "low density",
+     "year": 2019,
+     "doi": "10.1103/physrevlett.123.117702",
+     "arxiv_id": "1904.09202",
+     "openalex_id": "W2972972417",
+     "title": "Absence of Interlayer Tunnel Coupling of K -Valley Electrons in Bilayer MoS2",
+     "journal": "Physical Review Letters",
+     "note": null,
+     "work_id": "W0166"
+    }
+   ]
+  },
+  {
+   "system": "bilayer WSe2",
+   "material_class": "TMD",
+   "status": "experimental",
+   "counts": {
+    "experiment": 2,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0028",
+     "material": "bilayer WSe2 (holes)",
+     "evidence": "experiment",
+     "method": "magnetotransport (SdH)",
+     "regime": "low density (holes)",
+     "year": 2016,
+     "doi": "10.1103/physrevlett.116.086601",
+     "arxiv_id": "1602.01073",
+     "openalex_id": "W2263074700",
+     "title": "Shubnikov–de Haas Oscillations of High-Mobility Holes in Monolayer and Bilayer WSe2 : Landau Level Degeneracy, Effective Mass, and Negative Compressibility",
+     "journal": "Physical Review Letters",
+     "note": null,
+     "work_id": "W0130"
+    },
+    {
+     "entry_id": "NEC-0029",
+     "material": "bilayer WSe2 (weakly coupled)",
+     "evidence": "experiment",
+     "method": "magnetotransport (Landau level)",
+     "regime": "low density (holes)",
+     "year": 2024,
+     "doi": "10.1088/2053-1583/ad6b80",
+     "arxiv_id": null,
+     "openalex_id": "W4401370339",
+     "title": "Valley landau level crossings in weakly coupled bilayer WSe2",
+     "journal": "2D Materials",
+     "note": null,
+     "work_id": "W0318"
+    }
+   ]
+  },
+  {
+   "system": "ionic-liquid-gated 2D superconductors",
+   "material_class": "TMD",
+   "status": "theoretical",
+   "counts": {
+    "experiment": 0,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0030",
+     "material": "ionic-liquid-gated 2D superconductors (MoS2 etc.)",
+     "evidence": "theory",
+     "method": "theory (phase separation model)",
+     "regime": "ionic-liquid gating",
+     "year": 2018,
+     "doi": "10.1103/physrevb.98.214507",
+     "arxiv_id": "1706.01274",
+     "openalex_id": "W2897051193",
+     "title": "Negative electronic compressibility and nanoscale inhomogeneity in ionic-liquid gated two-dimensional superconductors",
+     "journal": "Physical review. B./Physical review. B",
+     "note": null,
+     "work_id": "W0161"
+    }
+   ]
+  },
+  {
+   "system": "monolayer MoS2",
+   "material_class": "TMD",
+   "status": "indirect",
+   "counts": {
+    "experiment": 0,
+    "theory": 0,
+    "indirect": 1,
+    "disputed": 1
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0031",
+     "material": "monolayer MoS2",
+     "evidence": "disputed",
+     "method": "capacitance and transport",
+     "regime": "low density",
+     "year": 2015,
+     "doi": "10.1038/ncomms7088",
+     "arxiv_id": "1407.5365",
+     "openalex_id": "W2134011220",
+     "title": "Probing the electron states and metal-insulator transition mechanisms in molybdenum disulphide vertical heterostructures",
+     "journal": "Nature Communications",
+     "note": "NEC not observed in this work",
+     "work_id": "W0104"
+    },
+    {
+     "entry_id": "NEC-0032",
+     "material": "monolayer MoS2",
+     "evidence": "indirect",
+     "method": "unknown (abstract unavailable)",
+     "regime": "unknown",
+     "year": 2025,
+     "doi": "10.1016/j.physb.2025.418022",
+     "arxiv_id": null,
+     "openalex_id": "W4416155007",
+     "title": "Negative electronic compressibility in MoS 2 monolayers",
+     "journal": "Physica B Condensed Matter",
+     "note": "title claim only, abstract unavailable",
+     "work_id": "W0331"
+    }
+   ]
+  },
+  {
+   "system": "monolayer WSe2",
+   "material_class": "TMD",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0033",
+     "material": "monolayer WSe2 (holes)",
+     "evidence": "experiment",
+     "method": "scanning SET",
+     "regime": "quantum Hall (holes)",
+     "year": 2024,
+     "doi": "10.1103/physrevx.14.031018",
+     "arxiv_id": "2401.01486",
+     "openalex_id": "W4401212347",
+     "title": "Anomalous Landau Level Gaps Near Magnetic Transitions in Monolayer WSe 2",
+     "journal": "Physical Review X",
+     "note": "scanning SET",
+     "work_id": "W0289"
+    }
+   ]
+  },
+  {
+   "system": "twisted MoTe2",
+   "material_class": "TMD",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0034",
+     "material": "twisted MoTe2 (moire)",
+     "evidence": "experiment",
+     "method": "chemical potential sensing (optical)",
+     "regime": "moire flat band (FCI)",
+     "year": 2023,
+     "doi": "10.1038/s41586-023-06452-3",
+     "arxiv_id": "2305.00973",
+     "openalex_id": "W4385295632",
+     "title": "Thermodynamic evidence of fractional Chern insulator in moiré MoTe2",
+     "journal": "Nature",
+     "note": null,
+     "work_id": "W0283"
+    }
+   ]
+  },
+  {
+   "system": "Ta2NiSe5",
+   "material_class": "excitonic insulator",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0035",
+     "material": "Ta2NiSe5",
+     "evidence": "experiment",
+     "method": "ARPES with K surface doping",
+     "regime": "surface doping",
+     "year": 2023,
+     "doi": "10.1103/physrevresearch.5.043089",
+     "arxiv_id": "2203.06817",
+     "openalex_id": "W4388205036",
+     "title": "Role of electron-phonon coupling in excitonic insulator candidate Ta 2 NiSe 5",
+     "journal": "Physical Review Research",
+     "note": "K-dosed ARPES",
+     "work_id": "W0279"
+    }
+   ]
+  },
+  {
+   "system": "bilayer graphene",
+   "material_class": "graphene",
+   "status": "experimental",
+   "counts": {
+    "experiment": 3,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0036",
+     "material": "bilayer graphene",
+     "evidence": "theory",
+     "method": "theory (capacitance modeling)",
+     "regime": "low density",
+     "year": 2011,
+     "doi": "10.1103/physrevb.84.085441",
+     "arxiv_id": "1105.1801",
+     "openalex_id": "W1608258377",
+     "title": "Capacitance of graphene bilayer as a probe of layer-specific properties",
+     "journal": "Physical Review B",
+     "note": null,
+     "work_id": "W0056"
+    },
+    {
+     "entry_id": "NEC-0037",
+     "material": "bilayer graphene",
+     "evidence": "experiment",
+     "method": "capacitance (chemical potential)",
+     "regime": "quantum Hall",
+     "year": 2014,
+     "doi": "10.1126/science.1251003",
+     "arxiv_id": "1401.0659",
+     "openalex_id": "W2065801793",
+     "title": "Chemical potential and quantum Hall ferromagnetism in bilayer graphene",
+     "journal": "Science",
+     "note": null,
+     "work_id": "W0082"
+    },
+    {
+     "entry_id": "NEC-0038",
+     "material": "bilayer graphene (Bernal, FQH)",
+     "evidence": "experiment",
+     "method": "capacitance",
+     "regime": "quantum Hall (FQH)",
+     "year": 2024,
+     "doi": "10.1103/physrevlett.132.046603",
+     "arxiv_id": "2308.05729",
+     "openalex_id": "W4391253639",
+     "title": "Energy Gap of the Even-Denominator Fractional Quantum Hall State in Bilayer Graphene",
+     "journal": "Physical Review Letters",
+     "note": null,
+     "work_id": "W0294"
+    },
+    {
+     "entry_id": "NEC-0039",
+     "material": "bilayer graphene (Bernal, FQH)",
+     "evidence": "experiment",
+     "method": "tunnelling spectroscopy (STM)",
+     "regime": "quantum Hall (FQH)",
+     "year": 2025,
+     "doi": "10.1038/s41567-025-02830-y",
+     "arxiv_id": "2308.05789",
+     "openalex_id": "W4408673423",
+     "title": "High-resolution tunnelling spectroscopy of fractional quantum Hall states",
+     "journal": "Nature Physics",
+     "note": "tunnelling spectroscopy",
+     "work_id": "W0327"
+    }
+   ]
+  },
+  {
+   "system": "double-layer graphene",
+   "material_class": "graphene",
+   "status": "experimental",
+   "counts": {
+    "experiment": 3,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0040",
+     "material": "double-layer graphene (high B)",
+     "evidence": "theory",
+     "method": "theory (Hartree-Fock CDW)",
+     "regime": "quantum Hall",
+     "year": 2014,
+     "doi": "10.1103/physrevb.90.035404",
+     "arxiv_id": "1312.5475",
+     "openalex_id": "W2016004774",
+     "title": "Charge-density-wave states in double-layer graphene structures at a high magnetic field",
+     "journal": "Physical Review B",
+     "note": null,
+     "work_id": "W0081"
+    },
+    {
+     "entry_id": "NEC-0041",
+     "material": "double-layer graphene (Coulomb-coupled trilayer)",
+     "evidence": "experiment",
+     "method": "capacitance",
+     "regime": "quantum Hall (lowest Landau level)",
+     "year": 2026,
+     "doi": "10.48550/arxiv.2608.28381",
+     "arxiv_id": "2608.28381",
+     "openalex_id": "W7204844109",
+     "title": "Electrically Tunable Two-Component Exciton Condensate in a Coulomb-Coupled Graphene Trilayer",
+     "journal": "arXiv (Cornell University)",
+     "note": "LLL NEC background",
+     "work_id": "W0348"
+    },
+    {
+     "entry_id": "NEC-0042",
+     "material": "double-layer graphene (ZLL)",
+     "evidence": "experiment",
+     "method": "capacitance",
+     "regime": "quantum Hall (zero Landau level)",
+     "year": 2026,
+     "doi": "10.48550/arxiv.2608.28338",
+     "arxiv_id": "2608.28338",
+     "openalex_id": "W7204836990",
+     "title": "Evidence for Three-component Interlayer Coherent Exciton Condensation",
+     "journal": "arXiv (Cornell University)",
+     "note": null,
+     "work_id": "W0351"
+    },
+    {
+     "entry_id": "NEC-0043",
+     "material": "double-layer graphene",
+     "evidence": "experiment",
+     "method": "microwave impedance microscopy",
+     "regime": "quantum Hall",
+     "year": 2026,
+     "doi": "10.1021/acs.nanolett.5c06452",
+     "arxiv_id": null,
+     "openalex_id": "W7160410459",
+     "title": "Layer-Resolved Microwave Imaging of a van der Waals Heterostructure",
+     "journal": "Nano Letters",
+     "note": "microwave imaging",
+     "work_id": "W0357"
+    }
+   ]
+  },
+  {
+   "system": "graphene nanoribbon",
+   "material_class": "graphene",
+   "status": "disputed",
+   "counts": {
+    "experiment": 0,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 1
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0044",
+     "material": "graphene nanoribbon",
+     "evidence": "disputed",
+     "method": "capacitance",
+     "regime": "device",
+     "year": 2014,
+     "doi": "10.1063/1.4904715",
+     "arxiv_id": "1410.8778",
+     "openalex_id": "W2285996055",
+     "title": "Side-gate modulation effects on high-quality BN-Graphene-BN nanoribbon capacitors",
+     "journal": "Applied Physics Letters",
+     "note": "predicted NQC not observed",
+     "work_id": "W0089"
+    }
+   ]
+  },
+  {
+   "system": "graphene nanoribbon with lateral gates",
+   "material_class": "graphene",
+   "status": "theoretical",
+   "counts": {
+    "experiment": 0,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0045",
+     "material": "graphene nanoribbon with lateral gates",
+     "evidence": "theory",
+     "method": "device simulation (self-consistent)",
+     "regime": "device",
+     "year": 2014,
+     "doi": "10.1103/physrevb.89.115406",
+     "arxiv_id": "1312.5623",
+     "openalex_id": "W2092286127",
+     "title": "Negative quantum capacitance in graphene nanoribbons with lateral gates",
+     "journal": "Physical Review B",
+     "note": null,
+     "work_id": "W0086"
+    }
+   ]
+  },
+  {
+   "system": "graphene/h-BN moire superlattice",
+   "material_class": "graphene",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0046",
+     "material": "graphene/h-BN moire superlattice",
+     "evidence": "experiment",
+     "method": "capacitance",
+     "regime": "moire flat band",
+     "year": 2025,
+     "doi": "10.1103/75gl-jzl6",
+     "arxiv_id": "2408.11220",
+     "openalex_id": "W4405425582",
+     "title": "Displacement Field-Controlled Fractional Chern Insulators and Charge Density Waves in a Graphene/hBN Moiré Superlattice",
+     "journal": "Physical Review X",
+     "note": null,
+     "work_id": "W0323"
+    }
+   ]
+  },
+  {
+   "system": "graphene/h-BN nanocapacitor",
+   "material_class": "graphene",
+   "status": "contested",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 1,
+    "disputed": 1
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0047",
+     "material": "graphene/h-BN nanocapacitor",
+     "evidence": "experiment",
+     "method": "capacitance (nanocapacitor)",
+     "regime": "device",
+     "year": 2014,
+     "doi": "10.1021/nl4037824",
+     "arxiv_id": null,
+     "openalex_id": "W1979746926",
+     "title": "Boron Nitride–Graphene Nanocapacitor and the Origins of Anomalous Size-Dependent Increase of Capacitance",
+     "journal": "Nano Letters",
+     "note": "refuted by W0176",
+     "work_id": "W0079"
+    },
+    {
+     "entry_id": "NEC-0048",
+     "material": "graphene/h-BN nanocapacitor",
+     "evidence": "indirect",
+     "method": "DFT",
+     "regime": "device",
+     "year": 2016,
+     "doi": "10.13005/ojc/320120",
+     "arxiv_id": null,
+     "openalex_id": null,
+     "title": "A nano capacitor with graphene electrodes and Methane - (h-BN)insulator",
+     "journal": "Oriental Journal of Chemistry",
+     "note": "DFT nanocapacitor claim, low-tier journal; added from carbon search",
+     "work_id": "A0002"
+    },
+    {
+     "entry_id": "NEC-0049",
+     "material": "graphene/h-BN nanocapacitor",
+     "evidence": "disputed",
+     "method": "electrostatic modeling",
+     "regime": "device",
+     "year": 2019,
+     "doi": "10.1039/c9ra00614a",
+     "arxiv_id": null,
+     "openalex_id": "W2922242273",
+     "title": "Origin of the anomalous size-dependent increase of capacitance in boron nitride–graphene nanocapacitors",
+     "journal": "RSC Advances",
+     "note": "refutes NQC origin of W0079",
+     "work_id": "W0176"
+    }
+   ]
+  },
+  {
+   "system": "graphite/h-BN aligned interface",
+   "material_class": "graphene",
+   "status": "indirect",
+   "counts": {
+    "experiment": 0,
+    "theory": 0,
+    "indirect": 1,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0050",
+     "material": "graphite/h-BN aligned interface",
+     "evidence": "indirect",
+     "method": "capacitance and transport",
+     "regime": "quantum Hall (surface states)",
+     "year": 2022,
+     "doi": "10.48550/arxiv.2211.16420",
+     "arxiv_id": "2211.16420",
+     "openalex_id": "W4310514427",
+     "title": "Mixing of surface and bulk electronic states at a graphite-hexagonal boron nitride interface",
+     "journal": "arXiv (Cornell University)",
+     "note": "NEC invoked for surface FQH states",
+     "work_id": "W0242"
+    }
+   ]
+  },
+  {
+   "system": "monolayer graphene",
+   "material_class": "graphene",
+   "status": "experimental",
+   "counts": {
+    "experiment": 10,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0051",
+     "material": "monolayer graphene (and generic 2D systems)",
+     "evidence": "theory",
+     "method": "theory (finite-temperature Hartree-Fock)",
+     "regime": "low density",
+     "year": 2011,
+     "doi": "10.1103/physrevb.84.235407",
+     "arxiv_id": "1109.5701",
+     "openalex_id": "W1992931936",
+     "title": "Temperature-dependent compressibility in graphene and two-dimensional systems",
+     "journal": "Physical Review B",
+     "note": "T-dependent compressibility",
+     "work_id": "W0061"
+    },
+    {
+     "entry_id": "NEC-0052",
+     "material": "monolayer graphene (suspended, FQH)",
+     "evidence": "experiment",
+     "method": "scanning SET compressibility",
+     "regime": "quantum Hall (FQH)",
+     "year": 2013,
+     "doi": "10.1103/physrevlett.111.076802",
+     "arxiv_id": "1303.0838",
+     "openalex_id": null,
+     "title": "Fractional Quantum Hall Phase Transitions and Four-flux Composite Fermions in Graphene",
+     "journal": "Phys. Rev. Lett. 111, 076802 (2013)",
+     "note": "local SET compressibility",
+     "work_id": "W0071"
+    },
+    {
+     "entry_id": "NEC-0053",
+     "material": "monolayer graphene",
+     "evidence": "experiment",
+     "method": "quantum capacitance",
+     "regime": "quantum Hall",
+     "year": 2013,
+     "doi": "10.1073/pnas.1300599110",
+     "arxiv_id": "1302.3967",
+     "openalex_id": "W2043045680",
+     "title": "Interaction phenomena in graphene seen through quantum capacitance",
+     "journal": "Proceedings of the National Academy of Sciences",
+     "note": "quantum capacitance, high B",
+     "work_id": "W0073"
+    },
+    {
+     "entry_id": "NEC-0054",
+     "material": "monolayer graphene (Ag adatoms)",
+     "evidence": "experiment",
+     "method": "quantum capacitance",
+     "regime": "impurity-induced, near CNP",
+     "year": 2013,
+     "doi": "10.1038/srep02041",
+     "arxiv_id": null,
+     "openalex_id": "W2046566119",
+     "title": "Negative Quantum Capacitance Induced by Midgap States in Single-layer Graphene",
+     "journal": "Scientific Reports",
+     "note": null,
+     "work_id": "W0074"
+    },
+    {
+     "entry_id": "NEC-0055",
+     "material": "monolayer graphene (resonant impurities)",
+     "evidence": "experiment",
+     "method": "quantum capacitance",
+     "regime": "impurity-induced",
+     "year": 2013,
+     "doi": "10.1063/1.4807394",
+     "arxiv_id": null,
+     "openalex_id": "W1995467775",
+     "title": "Negative compressibility observed in graphene containing resonant impurities",
+     "journal": "Applied Physics Letters",
+     "note": null,
+     "work_id": "W0075"
+    },
+    {
+     "entry_id": "NEC-0056",
+     "material": "monolayer graphene (encapsulated gate, MIS)",
+     "evidence": "experiment",
+     "method": "capacitance-voltage",
+     "regime": "device",
+     "year": 2016,
+     "doi": "10.1002/aelm.201500297",
+     "arxiv_id": null,
+     "openalex_id": "W2338654723",
+     "title": "Negative Quantum Capacitance Effects in Metal–Insulator–Semiconductor Devices with Composite Graphene‐Encapsulated Gates",
+     "journal": "Advanced Electronic Materials",
+     "note": "NQC device",
+     "work_id": "W0126"
+    },
+    {
+     "entry_id": "NEC-0057",
+     "material": "monolayer graphene (QH)",
+     "evidence": "experiment",
+     "method": "capacitance (chemical potential)",
+     "regime": "quantum Hall",
+     "year": 2021,
+     "doi": "10.1038/s41567-021-01421-x",
+     "arxiv_id": "2103.00015",
+     "openalex_id": "W3162659593",
+     "title": "Thermodynamics of free and bound magnons in graphene",
+     "journal": "Nature Physics",
+     "note": null,
+     "work_id": "W0232"
+    },
+    {
+     "entry_id": "NEC-0058",
+     "material": "monolayer graphene (high-LL bubble phases)",
+     "evidence": "experiment",
+     "method": "chemical potential measurement",
+     "regime": "quantum Hall (bubble phases)",
+     "year": 2023,
+     "doi": "10.48550/arxiv.2309.04319",
+     "arxiv_id": "2309.04319",
+     "openalex_id": "W4386620878",
+     "title": "Cascade of multi-electron bubble phases in monolayer graphene at high Landau level filling",
+     "journal": "arXiv (Cornell University)",
+     "note": null,
+     "work_id": "W0257"
+    },
+    {
+     "entry_id": "NEC-0059",
+     "material": "monolayer graphene (gate of MoS2 NQCFET)",
+     "evidence": "experiment",
+     "method": "device (NQC FET)",
+     "regime": "device",
+     "year": 2023,
+     "doi": "10.1109/ted.2023.3294365",
+     "arxiv_id": null,
+     "openalex_id": "W4385061818",
+     "title": "Graphene-Integrated Negative Quantum Capacitance Field-Effect Transistor With Sub-60-mV/dec Switching",
+     "journal": "IEEE Transactions on Electron Devices",
+     "note": null,
+     "work_id": "W0267"
+    },
+    {
+     "entry_id": "NEC-0060",
+     "material": "monolayer graphene (NQC phototransistor)",
+     "evidence": "experiment",
+     "method": "device (NQC phototransistor)",
+     "regime": "device",
+     "year": 2024,
+     "doi": "10.1002/adom.202401465",
+     "arxiv_id": null,
+     "openalex_id": "W4402557988",
+     "title": "An Ultrasensitive Programmable 2D Photoelectric Synaptic Transistor",
+     "journal": "Advanced Optical Materials",
+     "note": null,
+     "work_id": "W0288"
+    },
+    {
+     "entry_id": "NEC-0061",
+     "material": "monolayer graphene (QH)",
+     "evidence": "experiment",
+     "method": "charge sensing",
+     "regime": "quantum Hall",
+     "year": 2024,
+     "doi": "10.48550/arxiv.2410.10961",
+     "arxiv_id": "2410.10961",
+     "openalex_id": "W4403573087",
+     "title": "High spatial resolution charge sensing of quantum Hall states",
+     "journal": "Institutional Repositories DataBase (IRDB)",
+     "note": "charge sensing",
+     "work_id": "W0301"
+    }
+   ]
+  },
+  {
+   "system": "rhombohedral multilayer graphene",
+   "material_class": "graphene",
+   "status": "theoretical",
+   "counts": {
+    "experiment": 0,
+    "theory": 2,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0062",
+     "material": "rhombohedral multilayer graphene",
+     "evidence": "theory",
+     "method": "theory (Hartree-Fock + correlation)",
+     "regime": "flat band, displacement field",
+     "year": 2023,
+     "doi": "10.1103/physrevb.108.l041101",
+     "arxiv_id": "2304.07467",
+     "openalex_id": "W4383217639",
+     "title": "Chirality and correlations in the spontaneous spin-valley polarization of rhombohedral multilayer graphene",
+     "journal": "Physical review. B./Physical review. B",
+     "note": null,
+     "work_id": "W0259"
+    },
+    {
+     "entry_id": "NEC-0063",
+     "material": "rhombohedral multilayer graphene",
+     "evidence": "theory",
+     "method": "theory (Hartree-Fock)",
+     "regime": "flat band, displacement field",
+     "year": 2026,
+     "doi": "10.1103/xq6w-96vg",
+     "arxiv_id": "2512.23082",
+     "openalex_id": "W7141063326",
+     "title": "Various electronic crystal phases in rhombohedral graphene multilayers",
+     "journal": "Physical review. B./Physical review. B",
+     "note": null,
+     "work_id": "W0368"
+    }
+   ]
+  },
+  {
+   "system": "rhombohedral trilayer graphene",
+   "material_class": "graphene",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0064",
+     "material": "rhombohedral trilayer graphene",
+     "evidence": "experiment",
+     "method": "capacitance",
+     "regime": "flat band (van Hove), displacement field",
+     "year": 2021,
+     "doi": "10.1038/s41586-021-03938-w",
+     "arxiv_id": "2104.00653",
+     "openalex_id": null,
+     "title": "Half and quarter metals in rhombohedral trilayer graphene",
+     "journal": "Nature 598 (2021) 429-433",
+     "note": null,
+     "work_id": "W0222"
+    },
+    {
+     "entry_id": "NEC-0065",
+     "material": "rhombohedral trilayer graphene",
+     "evidence": "theory",
+     "method": "theory (mean-field)",
+     "regime": "flat band, displacement field",
+     "year": 2024,
+     "doi": "10.1103/physrevb.109.l060409",
+     "arxiv_id": "2308.01996",
+     "openalex_id": "W4392099123",
+     "title": "Unconventional metallic ferromagnetism: Nonanalyticity and sign-changing behavior of orbital magnetization in rhombohedral trilayer graphene",
+     "journal": "Physical review. B./Physical review. B",
+     "note": null,
+     "work_id": "W0317"
+    }
+   ]
+  },
+  {
+   "system": "twisted bilayer graphene",
+   "material_class": "graphene",
+   "status": "experimental",
+   "counts": {
+    "experiment": 2,
+    "theory": 2,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0066",
+     "material": "twisted bilayer graphene (magic-angle)",
+     "evidence": "theory",
+     "method": "theory (heavy-fermion model)",
+     "regime": "moire flat band",
+     "year": 2021,
+     "doi": "10.1103/physrevlett.127.266402",
+     "arxiv_id": "2104.01145",
+     "openalex_id": "W3140674682",
+     "title": "Cascades between Light and Heavy Fermions in the Normal State of Magic-Angle Twisted Bilayer Graphene",
+     "journal": "Physical Review Letters",
+     "note": null,
+     "work_id": "W0215"
+    },
+    {
+     "entry_id": "NEC-0067",
+     "material": "twisted bilayer graphene (magic-angle)",
+     "evidence": "theory",
+     "method": "DMFT",
+     "regime": "moire flat band",
+     "year": 2024,
+     "doi": "10.1103/physrevx.14.031045",
+     "arxiv_id": "2309.08529",
+     "openalex_id": "W4402454629",
+     "title": "Dynamical Correlations and Order in Magic-Angle Twisted Bilayer Graphene",
+     "journal": "Physical Review X",
+     "note": "DMFT",
+     "work_id": "W0292"
+    },
+    {
+     "entry_id": "NEC-0068",
+     "material": "twisted bilayer graphene (charge islands)",
+     "evidence": "experiment",
+     "method": "Coulomb blockade spectroscopy",
+     "regime": "moire flat band",
+     "year": 2024,
+     "doi": "10.1103/physrevb.109.155430",
+     "arxiv_id": "2403.17840",
+     "openalex_id": "W4393247964",
+     "title": "Negative electronic compressibility in charge islands in twisted bilayer graphene",
+     "journal": "Physical review. B./Physical review. B",
+     "note": null,
+     "work_id": "W0306"
+    },
+    {
+     "entry_id": "NEC-0069",
+     "material": "twisted bilayer graphene (STS)",
+     "evidence": "experiment",
+     "method": "STS",
+     "regime": "moire flat band (Hofstadter)",
+     "year": 2025,
+     "doi": "10.1038/s41586-024-08550-2",
+     "arxiv_id": "2501.04777",
+     "openalex_id": "W4407957610",
+     "title": "Spectroscopy of the fractal Hofstadter energy spectrum",
+     "journal": "Nature",
+     "note": "STS Hofstadter",
+     "work_id": "W0336"
+    }
+   ]
+  },
+  {
+   "system": "capacitors with free-electron-like metal electrodes",
+   "material_class": "metal",
+   "status": "theoretical",
+   "counts": {
+    "experiment": 0,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0070",
+     "material": "capacitors with free-electron-like metal electrodes",
+     "evidence": "theory",
+     "method": "DFT",
+     "regime": "metal electrodes",
+     "year": 2019,
+     "doi": "10.1103/physrevb.99.235127",
+     "arxiv_id": "1902.04316",
+     "openalex_id": "W2952405716",
+     "title": "Mechanisms to enhance the capacitance beyond the classical limits in capacitors with free-electron-like electrodes",
+     "journal": "Physical review. B./Physical review. B",
+     "note": "DFT",
+     "work_id": "W0174"
+    }
+   ]
+  },
+  {
+   "system": "fluid Rb",
+   "material_class": "metal fluid",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0071",
+     "material": "fluid Rb (expanded metal)",
+     "evidence": "experiment",
+     "method": "x-ray diffraction and SAXS",
+     "regime": "expanded fluid metal",
+     "year": 2007,
+     "doi": "10.1103/physrevlett.98.096401",
+     "arxiv_id": null,
+     "openalex_id": "W2057186923",
+     "title": "Instability of the Electron Gas in an Expanding Metal",
+     "journal": "Physical Review Letters",
+     "note": "x-ray/SAXS",
+     "work_id": "W0039"
+    }
+   ]
+  },
+  {
+   "system": "fluid alkali metals",
+   "material_class": "metal fluid",
+   "status": "theoretical",
+   "counts": {
+    "experiment": 0,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0072",
+     "material": "fluid alkali metals (Na, K, Rb)",
+     "evidence": "theory",
+     "method": "thermodynamic modeling",
+     "regime": "expanded fluid metal",
+     "year": 2010,
+     "doi": "10.1021/je100627c",
+     "arxiv_id": null,
+     "openalex_id": "W2319671483",
+     "title": "Internal Pressures of Sodium, Potassium, and Rubidium Fluids at Different Temperatures",
+     "journal": "Journal of Chemical & Engineering Data",
+     "note": null,
+     "work_id": "W0050"
+    }
+   ]
+  },
+  {
+   "system": "topological superconductor nanowire",
+   "material_class": "nanowire",
+   "status": "theoretical",
+   "counts": {
+    "experiment": 0,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0073",
+     "material": "topological superconductor nanowire",
+     "evidence": "theory",
+     "method": "theory (BdG numerics)",
+     "regime": "topological phase transition",
+     "year": 2016,
+     "doi": "10.1103/physrevb.93.064512",
+     "arxiv_id": "1504.00013",
+     "openalex_id": "W359116552",
+     "title": "Compressibility as a probe of quantum phase transitions in topological superconductors",
+     "journal": "Physical review. B./Physical review. B",
+     "note": "local NEC at impurity",
+     "work_id": "W0112"
+    }
+   ]
+  },
+  {
+   "system": "NbOCl2 surface",
+   "material_class": "other",
+   "status": "indirect",
+   "counts": {
+    "experiment": 0,
+    "theory": 0,
+    "indirect": 1,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0074",
+     "material": "NbOCl2 surface",
+     "evidence": "indirect",
+     "method": "ARPES",
+     "regime": "surface doping",
+     "year": 2026,
+     "doi": "10.1038/s43246-025-01070-0",
+     "arxiv_id": "2601.16688",
+     "openalex_id": "W7120948422",
+     "title": "Observation of an isolated flat band in the van der Waals crystal NbOCl2",
+     "journal": "Communications Materials",
+     "note": "NEC offered as possible cause",
+     "work_id": "W0360"
+    }
+   ]
+  },
+  {
+   "system": "vdW magnet",
+   "material_class": "other",
+   "status": "disputed",
+   "counts": {
+    "experiment": 0,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 1
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0075",
+     "material": "vdW magnet",
+     "evidence": "disputed",
+     "method": "ARPES and core-level",
+     "regime": "surface doping",
+     "year": 2025,
+     "doi": "10.1038/s41467-025-56457-x",
+     "arxiv_id": "2403.13897",
+     "openalex_id": "W4406930014",
+     "title": "Large exciton binding energy in a bulk van der Waals magnet from quasi-1D electronic localization",
+     "journal": "Nature Communications",
+     "note": "NEC ruled out",
+     "work_id": "W0329"
+    }
+   ]
+  },
+  {
+   "system": "BiFeO3, Cu-doped",
+   "material_class": "oxide",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0076",
+     "material": "BiFeO3, Cu-doped (BiFe0.95Cu0.05O3 film)",
+     "evidence": "experiment",
+     "method": "electrochemical charge-discharge",
+     "regime": "battery electrode coating",
+     "year": 2024,
+     "doi": "10.1063/5.0210841",
+     "arxiv_id": null,
+     "openalex_id": "W4400985526",
+     "title": "Enhanced energy density of LiNi0.5Mn0.3Co0.2O2 batteries with negative-electronic-compressibility thin film coating",
+     "journal": "Applied Physics Letters",
+     "note": "Li-ion cathode coating",
+     "work_id": "W0295"
+    }
+   ]
+  },
+  {
+   "system": "BiFeO3, La-doped",
+   "material_class": "oxide",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0077",
+     "material": "BiFeO3, La-doped (Bi0.95La0.05FeO3)",
+     "evidence": "experiment",
+     "method": "UPS with UV-light doping + capacitance",
+     "regime": "surface doping",
+     "year": 2020,
+     "doi": "10.1038/s41598-020-61859-6",
+     "arxiv_id": null,
+     "openalex_id": "W3011628459",
+     "title": "Interplay of negative electronic compressibility and capacitance enhancement in lightly-doped metal oxide Bi0.95La0.05FeO3 by quantum capacitance model",
+     "journal": "Scientific Reports",
+     "note": "UPS, UV doping",
+     "work_id": "W0195"
+    }
+   ]
+  },
+  {
+   "system": "SrTiO3 surface",
+   "material_class": "oxide",
+   "status": "experimental",
+   "counts": {
+    "experiment": 2,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0078",
+     "material": "SrTiO3 surface (2DES)",
+     "evidence": "experiment",
+     "method": "gate-dependent Hall density",
+     "regime": "surface 2DES",
+     "year": 2016,
+     "doi": "10.1038/srep25789",
+     "arxiv_id": null,
+     "openalex_id": "W2377448504",
+     "title": "Anomalous enhancement of the sheet carrier density beyond the classic limit on a SrTiO3 surface",
+     "journal": "Scientific Reports",
+     "note": null,
+     "work_id": "W0111"
+    },
+    {
+     "entry_id": "NEC-0079",
+     "material": "SrTiO3 surface (UV-doped)",
+     "evidence": "experiment",
+     "method": "ARPES with UV-light doping",
+     "regime": "surface doping",
+     "year": 2026,
+     "doi": "10.48550/arxiv.2604.21783",
+     "arxiv_id": "2604.21783",
+     "openalex_id": "W7155527616",
+     "title": "Direct observation of surface bandgap shrinkage and negative electronic compressibility in SrTiO3",
+     "journal": "arXiv (Cornell University)",
+     "note": "KTaO3 shows no NEC",
+     "work_id": "W0346"
+    }
+   ]
+  },
+  {
+   "system": "Sr3Ir2O7, La-doped",
+   "material_class": "oxide (5d)",
+   "status": "experimental",
+   "counts": {
+    "experiment": 1,
+    "theory": 0,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0080",
+     "material": "Sr3Ir2O7, La-doped ((Sr1-xLax)3Ir2O7)",
+     "evidence": "experiment",
+     "method": "ARPES with La doping",
+     "regime": "correlated bulk (Mott)",
+     "year": 2015,
+     "doi": "10.1038/nmat4273",
+     "arxiv_id": "1409.8253",
+     "openalex_id": "W2162417208",
+     "title": "Spectroscopic evidence for negative electronic compressibility in a quasi-three-dimensional spin–orbit correlated metal",
+     "journal": "Nature Materials",
+     "note": "ARPES, quasi-3D",
+     "work_id": "W0106"
+    }
+   ]
+  },
+  {
+   "system": "La3Ni2O7 under pressure",
+   "material_class": "oxide (nickelate)",
+   "status": "theoretical",
+   "counts": {
+    "experiment": 0,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0081",
+     "material": "La3Ni2O7 under pressure",
+     "evidence": "theory",
+     "method": "many-body theory",
+     "regime": "correlated bulk (nickelate, high pressure)",
+     "year": 2024,
+     "doi": "10.1103/physrevb.109.165154",
+     "arxiv_id": "2308.09698",
+     "openalex_id": "W4395665710",
+     "title": "Correlation effects and concomitant two-orbital s ± -wave superconductivity in La 3 Ni 2 O 7 under high pressure",
+     "journal": "Physical review. B./Physical review. B",
+     "note": null,
+     "work_id": "W0291"
+    }
+   ]
+  },
+  {
+   "system": "LaAlO3/SrTiO3 interface",
+   "material_class": "oxide interface",
+   "status": "experimental",
+   "counts": {
+    "experiment": 2,
+    "theory": 4,
+    "indirect": 1,
+    "disputed": 1
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0082",
+     "material": "LaAlO3/SrTiO3 interface",
+     "evidence": "experiment",
+     "method": "capacitance + penetration field",
+     "regime": "low density, near depletion",
+     "year": 2011,
+     "doi": "10.1126/science.1204168",
+     "arxiv_id": "1006.2847",
+     "openalex_id": "W2014678140",
+     "title": "Very Large Capacitance Enhancement in a Two-Dimensional Electron System",
+     "journal": "Science",
+     "note": "Li 2011 Science",
+     "work_id": "W0062"
+    },
+    {
+     "entry_id": "NEC-0083",
+     "material": "LaAlO3/SrTiO3 interface (Rashba)",
+     "evidence": "theory",
+     "method": "theory (Rashba interface model)",
+     "regime": "interface 2DEG",
+     "year": 2012,
+     "doi": "10.1103/physrevlett.109.196401",
+     "arxiv_id": "1204.0962",
+     "openalex_id": "W1973395293",
+     "title": "Intrinsic Instability of Electronic Interfaces with Strong Rashba Coupling",
+     "journal": "Physical Review Letters",
+     "note": null,
+     "work_id": "W0065"
+    },
+    {
+     "entry_id": "NEC-0084",
+     "material": "LaAlO3/SrTiO3 interface",
+     "evidence": "experiment",
+     "method": "capacitance + Kelvin probe",
+     "regime": "low density",
+     "year": 2012,
+     "doi": "10.1103/physrevb.86.075116",
+     "arxiv_id": "1207.6498",
+     "openalex_id": "W2039761741",
+     "title": "Large negative electronic compressibility of LaAlO 3 -SrTiO 3 interfaces with ultrathin LaAlO 3 layers",
+     "journal": "Physical Review B",
+     "note": "ultrathin LAO",
+     "work_id": "W0066"
+    },
+    {
+     "entry_id": "NEC-0085",
+     "material": "LaAlO3/SrTiO3 interface (Rashba)",
+     "evidence": "theory",
+     "method": "theory (Rashba interface model)",
+     "regime": "interface 2DEG",
+     "year": 2014,
+     "doi": "10.1103/physrevb.89.195448",
+     "arxiv_id": "1307.5427",
+     "openalex_id": "W2037463966",
+     "title": "Phase diagrams of voltage-gated oxide interfaces with strong Rashba coupling",
+     "journal": "Physical Review B",
+     "note": null,
+     "work_id": "W0087"
+    },
+    {
+     "entry_id": "NEC-0086",
+     "material": "LaAlO3/SrTiO3 interface (dual-gate)",
+     "evidence": "indirect",
+     "method": "dual-gate magnetotransport",
+     "regime": "interface 2DEG",
+     "year": 2016,
+     "doi": "10.1021/acs.nanolett.6b02348",
+     "arxiv_id": "1807.08345",
+     "openalex_id": "W2514286236",
+     "title": "Dual-Gate Modulation of Carrier Density and Disorder in an Oxide Two-Dimensional Electron System",
+     "journal": "Nano Letters",
+     "note": "NEC offered as interpretation",
+     "work_id": "W0113"
+    },
+    {
+     "entry_id": "NEC-0087",
+     "material": "LaAlO3/SrTiO3 interface (and LaTiO3/SrTiO3)",
+     "evidence": "theory",
+     "method": "theory (self-consistent confinement)",
+     "regime": "interface 2DEG",
+     "year": 2016,
+     "doi": "10.1103/physrevlett.116.026804",
+     "arxiv_id": "1506.04777",
+     "openalex_id": "W621169927",
+     "title": "Phase Separation from Electron Confinement at Oxide Interfaces",
+     "journal": "Physical Review Letters",
+     "note": null,
+     "work_id": "W0128"
+    },
+    {
+     "entry_id": "NEC-0088",
+     "material": "LaAlO3/SrTiO3 interface",
+     "evidence": "theory",
+     "method": "theory (multiband Hartree-Fock)",
+     "regime": "interface 2DEG",
+     "year": 2021,
+     "doi": "10.1103/physrevb.103.125141",
+     "arxiv_id": "2102.00548",
+     "openalex_id": "W3127173214",
+     "title": "Understanding the onset of negative electronic compressibility in single-band and two-band two-dimensional electron gases: Application to LaAlO3/SrTiO3",
+     "journal": "Physical review. B./Physical review. B",
+     "note": null,
+     "work_id": "W0233"
+    },
+    {
+     "entry_id": "NEC-0089",
+     "material": "LaAlO3/SrTiO3 interface",
+     "evidence": "disputed",
+     "method": "capacitance",
+     "regime": "interface 2DEG",
+     "year": 2022,
+     "doi": "10.1103/physrevb.106.054205",
+     "arxiv_id": null,
+     "openalex_id": "W4291902319",
+     "title": "Capacitive probing of electronic phase separation in an oxide two-dimensional electron system",
+     "journal": "Physical review. B./Physical review. B",
+     "note": "capacitance suppression, extrinsic phase separation dominates",
+     "work_id": "W0238"
+    }
+   ]
+  },
+  {
+   "system": "Bi2Te3-type TI",
+   "material_class": "topological insulator",
+   "status": "experimental",
+   "counts": {
+    "experiment": 2,
+    "theory": 1,
+    "indirect": 0,
+    "disputed": 0
+   },
+   "entries": [
+    {
+     "entry_id": "NEC-0090",
+     "material": "Bi2Te3-type TI (Bi2Te3 surface)",
+     "evidence": "experiment",
+     "method": "capacitance-voltage",
+     "regime": "device",
+     "year": 2016,
+     "doi": "10.1063/1.4968183",
+     "arxiv_id": null,
+     "openalex_id": "W2556259461",
+     "title": "Experimental evidence of negative quantum capacitance in topological insulator for sub-60-mV/decade steep switching device",
+     "journal": "Applied Physics Letters",
+     "note": "NQC",
+     "work_id": "W0117"
+    },
+    {
+     "entry_id": "NEC-0091",
+     "material": "Bi2Te3-type TI (Bi2Te3 surface)",
+     "evidence": "theory",
+     "method": "device simulation",
+     "regime": "device",
+     "year": 2016,
+     "doi": null,
+     "arxiv_id": null,
+     "openalex_id": "W2651342795",
+     "title": "위상학적 절연체 내 음의 양자 정전용량을 활용한 저전력 반도체 소자 구현에 관한 이론 연구",
+     "journal": "대한전자공학회 학술대회",
+     "note": "NQC device theory",
+     "work_id": "W0135"
+    },
+    {
+     "entry_id": "NEC-0092",
+     "material": "Bi2Te3-type TI (Bi2Te1.5Se1.5, MOS)",
+     "evidence": "experiment",
+     "method": "capacitance-voltage",
+     "regime": "device",
+     "year": 2018,
+     "doi": "10.1016/j.apsusc.2018.09.051",
+     "arxiv_id": null,
+     "openalex_id": "W2892224653",
+     "title": "Negative quantum capacitance effect from Bi2Te1.5Se1.5 with frequency dependent capacitance of polyvinyl alcohol (PVA) film in MOS structure",
+     "journal": "Applied Surface Science",
+     "note": "NQC in MOS",
+     "work_id": "W0162"
+    }
+   ]
+  }
+ ]
+}
