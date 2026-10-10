@@ -16,12 +16,16 @@ method, and the physical regime in which NEC appears.
 | `database/nec_database.json` | The same data nested as systems with their entries |
 | `database/nec_candidates_unverified.csv` | Strong candidates whose full text could not be checked |
 | `curation/nec_curation.csv` | Verdict for every screened work. This is the source of truth for the database |
-| `scripts/` | Harvesting pipeline and database builder |
+| `scripts/` | Harvesting pipeline, database builder and `make_plots.py` |
+| `figures/` | Overview figure of the database |
+| `biomass/` | Catalog of 53,227 works on biomass-derived carbon materials and their NEC screening ([details](biomass/README.md)) |
 
 ## Current coverage
 
 Literature screened on 9 October 2026: 373 works from OpenAlex and arXiv. The database holds 92 evidence entries for
 43 material systems.
+
+![NEC evidence per material system](figures/nec_systems.png)
 
 | System | Class | Status | Exp. | Theory | Indirect | Disputed | Earliest report |
 |---|---|---|---|---|---|---|---|
@@ -154,6 +158,7 @@ with a new `work_id`.
   `database/nec_candidates_unverified.csv`. They include Ilani et al. 2006 (carbon nanotubes), which would add
   experimental evidence for carbon nanotubes.
 - **Unchecked works.** 69 works matched only through OpenAlex full-text search and were not checked (`NT`).
-- **Biomass-derived carbon.** No published report of NEC in biomass-derived or other porous carbons was found.
+- **Biomass-derived carbon.** No published report of NEC in biomass-derived or other porous carbons was found. It was
+  screened across 89,899 works (Europe PMC and Semantic Scholar) and 208 open-access full texts. See `biomass/`.
 - **Other carbon forms.** No electronic NEC was found in diamond, fullerenes, amorphous carbon, carbon nitride or
   graphene oxide. The fullerene result (Sc3N@C80) concerns mechanical volume compressibility.
